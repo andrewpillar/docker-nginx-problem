@@ -1,5 +1,7 @@
 # Nginx problem
 
+For a report on the changes made see: [report.md](./report.md).
+
 This repository contains a Dockerfile which extends the official nginx container image to create a microservice. The microservice is called bouncer and is responsible for incoming connections that are not recognised by any external load balacing rules, they will fall through to this service.
 
 Bouncer's resposibilities are:
