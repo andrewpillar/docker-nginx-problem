@@ -107,7 +107,7 @@ the repository, and download each one as their respective file via the `#1`
 pattern in the output string. This would save on having to write multiple curl
 commands, should new custom error pages get added in the future.
 
-## Change 3: Precise TLS configuration for NGINX
+## Change 3: NGINX configuration tweaks
 
 Both server blocks now listen on the IPv6 address,
 
