@@ -55,11 +55,11 @@ location / {
   return 404;
 }
 
-location /errors {
-  internal;
-
-  alias /var/www/nginx/errors/;
-}
++location /errors {
++  internal;
++
++  alias /var/www/nginx/errors/;
++}
 ```
 
 The `alias` directive was used in place of the `root` directive, as the `alias`
